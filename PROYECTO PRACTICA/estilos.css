@@ -161,27 +161,27 @@ body {
     /* Agrega espacio horizontal entre cada elemento */
 }
 
-#tit1{
+#tit1 {
     font-size: 20px;
     font-weight: bold;
 }
 
-#tit2{
+#tit2 {
     font-size: 20px;
     font-weight: bold;
 }
 
-#tit3{
+#tit3 {
     font-size: 20px;
     font-weight: bold;
 }
 
-#tit4{
+#tit4 {
     font-size: 20px;
     font-weight: bold;
 }
 
-#boton3{
+#boton3 {
     transform: translateY(790px);
     margin-left: 510px;
     width: 300px;
@@ -238,7 +238,7 @@ body {
     border-right: 1px solid white;
 }
 
-.seccion3{
+.seccion3 {
     background-color: #000000;
     color: #fff;
     transform: translateY(340px);
@@ -268,7 +268,6 @@ h1 {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
     justify-content: center;
-    
 }
 
 .benefits-section {
@@ -282,7 +281,7 @@ h1 {
     padding-left: 22px;
 }
 
-.benefits-section h2{
+.benefits-section h2 {
     margin-bottom: 35px;
 }
 
@@ -312,25 +311,25 @@ h1 {
 }
 
 .custom-benefits::after,
-.custom-benefits::before{
+.custom-benefits::before {
     content: '';
     position: absolute;
     background-color: #000000;
 }
 
-.custom-benefits2::before{
+.custom-benefits2::before {
     content: '';
     position: absolute;
     background-color: #000000;
 }
 
-.custom-benefits3::before{
+.custom-benefits3::before {
     content: '';
     position: absolute;
     background-color: #000000;
 }
 
-.custom-benefits4::after{
+.custom-benefits4::after {
     content: '';
     position: absolute;
     background-color: #000000;
@@ -339,31 +338,26 @@ h1 {
 .logos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;    
+    justify-content: space-between;
     padding-left: 0;
 }
 
-.logos li {    
+.logos li {
     margin-right: 10px;
     list-style: none;
     margin-top: 20px;
-    margin-bottom: 15px; 
-    
+    margin-bottom: 15px;
 }
 
 .logos img {
-    width: 135px;
+    width: 125px;
     height: 45;
 }
-
-
-
 
 .contenedor-logos {
     display: flex;
     flex-direction: column;
 }
-
 
 .nintendo {
     width: 60px;
@@ -372,7 +366,7 @@ h1 {
 
 .amazon {
     width: 60px;
-    margin-left: 130px;    
+    margin-left: 130px;
     margin-top: -54px;
 }
 
@@ -384,192 +378,204 @@ h1 {
 .spotify {
     width: 60px;
     margin-top: -45px;
-    margin-left: 130px;    
-
+    margin-left: 130px;
 }
-
 
 .sesion5 {
     display: flex;
-    justify-content: space-around; /* Ajusta el espacio entre los elementos */
-    align-items: center; /* Alinea verticalmente los elementos */
-    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
-    background-image: url('Imagenes/fondo2.jpg'); /* Ruta de la imagen de fondo */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
-    background-position: center; /* Centra la imagen de fondo */
-    padding: 50px 0; /* Añade espacio alrededor del contenido */
-    color: white; 
-    max-width: 800px; /* Define el ancho máximo del contenedor */
-    max-height: 900px; /* Define la altura máxima del contenedor */
+    justify-content: space-around;
+    /* Ajusta el espacio entre los elementos */
+    align-items: center;
+    /* Alinea verticalmente los elementos */
+    margin-top: 50px;
+    /* Ajusta el margen superior según sea necesario */
+    background-image: url('Imagenes/fondo2.jpg');
+    /* Ruta de la imagen de fondo */
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-position: center;
+    /* Centra la imagen de fondo */
+    padding: 50px 0;
+    /* Añade espacio alrededor del contenido */
+    color: white;
+    max-width: 800px;
+    /* Define el ancho máximo del contenedor */
+    max-height: 900px;
+    /* Define la altura máxima del contenedor */
     position: relative;
     z-index: 3;
     margin-left: 290px;
     margin-top: 60px;
 }
 
-
-.sesion5 > div {
-    text-align: center; /* Centra el contenido dentro de cada div */
-    flex-basis: 20%; /* Define el ancho de cada elemento */
-    margin: 0 10px; /* Espaciado entre los elementos */
+.sesion5>div {
+    text-align: center;
+    /* Centra el contenido dentro de cada div */
+    flex-basis: 20%;
+    /* Define el ancho de cada elemento */
+    margin: 0 10px;
+    /* Espaciado entre los elementos */
     transform: translateY(50px);
 }
 
 .sesion5 p {
-    margin: 0; /* Elimina el margen predeterminado de los párrafos */
+    margin: 0;
+    /* Elimina el margen predeterminado de los párrafos */
 }
 
 .contenedores {
     display: flex;
 }
 
-.contenedores > div {
-    flex: 1; /* Hace que los contenedores tengan el mismo ancho */
-    margin-right: 30px; /* Espacio entre los contenedores */
+.contenedores>div {
+    flex: 1;
+    /* Hace que los contenedores tengan el mismo ancho */
+    margin-right: 30px;
+    /* Espacio entre los contenedores */
 }
 
-.contenedores > div:last-child {
-    margin-right: 0; /* Elimina el margen derecho del último contenedor */
+.contenedores>div:last-child {
+    margin-right: 0;
+    /* Elimina el margen derecho del último contenedor */
 }
 
 .contenedor-principal {
-    position: relative; /* Asegura que los elementos hijos se posicionen relativos a este contenedor */
+    position: relative;
+    /* Asegura que los elementos hijos se posicionen relativos a este contenedor */
 }
 
 .titulo3 {
-    position: absolute; /* Coloca el título de manera absoluta */
-    top: -50px; /* Ajusta la posición verticalmente según sea necesario */
-    left: 10px; /* Ajusta la posición horizontalmente según sea necesario */
+    position: absolute;
+    /* Coloca el título de manera absoluta */
+    top: -50px;
+    /* Ajusta la posición verticalmente según sea necesario */
+    left: 10px;
+    /* Ajusta la posición horizontalmente según sea necesario */
     font-size: 12px;
-    transform: translateX(-50%); /* Centra el título horizontalmente */
-    z-index: 2; /* Asegura que el título esté encima de los contenedores */
+    transform: translateX(-50%);
+    /* Centra el título horizontalmente */
+    z-index: 2;
+    /* Asegura que el título esté encima de los contenedores */
     /* Otros estilos para el título */
-    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    white-space: nowrap;
+    /* Evita que el texto se divida en varias líneas */
 }
 
 .titpri {
-    font-size: 24px; /* Ajusta el tamaño de la fuente */
-    margin-left:80px;
+    font-size: 24px;
+    margin-left: 80px;
     margin-top: 20px;
 }
 
-.cabeza1{
-    font-weight: bold; /* Hace que el texto sea más grueso */
+.cabeza1 {
+    font-weight: bold;
     font-size: 24px;
 }
 
-.cabeza2{
-    font-weight: bold; /* Hace que el texto sea más grueso */
+.cabeza2 {
+    font-weight: bold;
     font-size: 24px;
 }
 
-.cabeza3{
-    font-weight: bold; /* Hace que el texto sea más grueso */
+.cabeza3 {
+    font-weight: bold;
     font-size: 24px;
 }
 
-.cabeza4{
-    font-weight: bold; /* Hace que el texto sea más grueso */
+.cabeza4 {
+    font-weight: bold;
     font-size: 24px;
 }
 
-.par1{
+.par1 {
     font-size: 12px;
-
 }
 
-.par2{
+.par2 {
     font-size: 12px;
-
 }
 
-.par3{
+.par3 {
     font-size: 12px;
-
 }
 
-.par4{
+.par4 {
     font-size: 12px;
-
-}
-
-.sesion6{
-    background-image: url('Imagenes/img-sesion6.jpg'); /* Ruta de la imagen de fondo */
-    background-repeat: no-repeat;
-    margin-top: 400px;
-    height: 400px;
-    background-size: cover; /* La imagen de fondo cubrirá todo el contenedor */
-    margin-top: 470px;
-    
 }
 
 .sesion6 {
-    text-align: center; /* Centra el contenido dentro de sesion6 */
+    background-image: url('Imagenes/img-sesion6.jpg');
+    background-repeat: no-repeat;
+    margin-top: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-top: 470px;
 }
 
-.sesion6 h1{
+.sesion6 {
+    text-align: center;
+}
+
+.sesion6 h1 {
     transform: translateY(130px);
 }
-.sesion6 p { /* Aplica estilos al p dentro de sesion6 */
-    text-align: center; /* Centra el texto */
-    margin: 0; /* Elimina el margen predeterminado */
+
+.sesion6 p {
+    text-align: center;
+    margin: 0;
     margin-top: 150px;
 }
 
-.sesion7 h1{
+.sesion7 h1 {
     font-size: 25px;
     margin-top: 20px;
     margin-left: 200px;
 }
 
-.ses-7-1{
+.ses-7-1 {
     margin-left: 150px;
     margin-top: 45px;
 }
 
-.ses-7-2{
+.ses-7-2 {
     margin-left: 660px;
     margin-top: -347px;
-    
 }
 
-#boton4{
+#boton4 {
     margin-left: 530px;
     margin-top: 30px;
     height: auto;
     width: max-content;
 }
 
-#carouselExampleControls{
+#carouselExampleControls {
     margin-top: 40px;
-    width: 1370px; /* Cambia el ancho del carrusel */
-    height: 400px; /* Cambia la altura del carrusel */
+    width: 1370px;
+    height: 400px;
     position: relative;
 }
 
 .btn-custom {
     background-color: transparent;
-    border-color: #f8f9fa; /* Puedes ajustar este color si lo necesitas */
-    color: #f8f9fa; /* Puedes ajustar este color si lo necesitas */
-    position: absolute; /* Para posicionar el botón de forma absoluta */
-    top: 700px; /* Ajusta la posición vertical del botón */
+    border-color: #f8f9fa;
+    color: #f8f9fa;
+    position: absolute;
+    top: 700px;
     left: 250px;
     z-index: 9999;
-    transform: translateY(4300px);
+    transform: translateY(4620px);
+    font-weight: bold;
 }
 
 .btn-custom:hover {
-    background-color: #f8f9fa; /* Color de fondo al pasar el ratón por encima */
-    color: #000; /* Cambia el color del texto al pasar el ratón por encima */
+    background-color: #f8f9fa;
+    color: #000;
 }
 
-.parrafoFinal p{
+.parrafoFinal p {
     transform: translateY(-90px);
     margin-left: 260px;
     color: #fff;
+    font-weight: bold;
 }
-
-
-
-
-
