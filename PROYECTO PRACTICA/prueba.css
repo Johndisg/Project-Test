@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: #eaeaea;
     color: #fff;
 }
 
@@ -30,7 +30,6 @@ h1 {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
     justify-content: center;
-    
 }
 
 .benefits-section {
@@ -70,25 +69,25 @@ h1 {
 }
 
 .custom-benefits::after,
-.custom-benefits::before{
+.custom-benefits::before {
     content: '';
     position: absolute;
     background-color: #000000;
 }
 
-.custom-benefits2::before{
+.custom-benefits2::before {
     content: '';
     position: absolute;
     background-color: #000000;
 }
 
-.custom-benefits3::before{
+.custom-benefits3::before {
     content: '';
     position: absolute;
     background-color: #000000;
 }
 
-.custom-benefits4::after{
+.custom-benefits4::after {
     content: '';
     position: absolute;
     background-color: #000000;
@@ -107,4 +106,28 @@ h1 {
 .logos img {
     width: 80px;
     height: auto;
+}
+
+.custom-footer h2 {
+    text-align: center;
+}
+
+.custom-footer {
+    text-align: center;
+    background-color: #000000;
+    padding-top: 5px;
+}
+
+#titulo,
+#puntos {
+    display: inline-block;
+}
+
+#img {
+    display: block;
+    margin: auto;
+}
+
+#puntos {
+    color: #f06262;
 }
